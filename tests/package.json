@@ -1,0 +1,20 @@
+{
+  "name": "setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fork": "anvil --fork-url https://eth-mainnet.public.blastapi.io --block-time 10 --port 8546",
+    "dev": "tsx src/setup.ts"
+  },
+  "author": "SmoothBot",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.12.1",
+    "viem": "^2.10.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11"
+  }
+}

@@ -3,3 +3,7 @@
 retch/target/
 
 .DS_Store
+
+tests/node_modules/
+
+tests/.env
