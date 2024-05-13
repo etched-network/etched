@@ -1,0 +1,19 @@
+[package]
+name = "retch"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ethers = "2.0.14"
+serde = "1.0.201"
+serde_json = "1.0.117"
+
+# reth
+reth = { git = "https://github.com/paradigmxyz/reth.git", rev = "a7d8da5", features = ["optimism"] }
+reth-node-core = { git = "https://github.com/paradigmxyz/reth.git", rev = "a7d8da5" }
+reth-node-ethereum = { git = "https://github.com/paradigmxyz/reth.git", rev = "a7d8da5" }
+reth-primitives = { git = "https://github.com/paradigmxyz/reth.git", rev = "a7d8da5" }
+reth-tracing = { git = "https://github.com/paradigmxyz/reth.git", rev = "a7d8da5" }
+tokio = "1.37.0"
+eyre = "0.6.12"
+futures-util = "0.3.30"
